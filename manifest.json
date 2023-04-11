@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "My outofeel for booking",
+    "version": "1.0",
+    "description": "this is a tool for autofill",
+    "content_scripts": [
+        {
+            "matches": ["https://*.taodining.com.tw/*,","http://taodining.com.tw/j24/*,"],
+            "css": ["my-styles.css"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
